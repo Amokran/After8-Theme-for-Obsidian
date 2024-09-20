@@ -34,13 +34,14 @@ svg * {
 
 .theme-dark {
 
-  --background-primary: #141518;
-  --background-secondary: #141518;
+  --background-primary: #050a0c;
+  --background-secondary: #050a0c;
+  /*--background-secondary: #121118;*/
 
-  --text-normal: rgb(157, 179, 155);
-  --text-faint:  rgb(137, 159, 125);
-  --text-muted:  rgb(137, 159, 125);
-  --text-selection: rgb(70, 124, 9);
+  --text-normal: rgb(184, 151, 91);
+  --text-faint:  rgb(224, 213, 110);
+  --text-muted:  rgb(153, 72, 96);
+  --text-selection: rgb(51, 59, 3);
   
   --list-marker-color: #000;
   --list-bullet-radius: 6px;
@@ -55,12 +56,12 @@ svg * {
 
 .theme-light {
 	
-  --background-primary: rgb(39, 43, 49);
-  --background-secondary: #141518;
+  --background-primary: rgb(178, 187, 201);
+  --background-secondary: rgb(178, 187, 201);
 
-  --text-normal: rgb(157, 179, 155);
-  --text-faint:  rgb(137, 159, 125);
-  --text-muted:  rgb(137, 159, 125);
+  --text-normal: rgb(53, 39, 3);
+  --text-faint:  rgb(88, 55, 5);
+  --text-muted:  rgb(97, 16, 89);
   --text-selection: rgb(70, 124, 9);
   
   --list-marker-color: #000;

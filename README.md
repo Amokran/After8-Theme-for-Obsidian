@@ -1,2 +1,2 @@
-# After8-Theme-for-Obsidian
-A quiet theme for Obsidian inspired on After8 mint chocolates
+# Tranquilo-Theme-for-Obsidian
+A tranquil theme for Obsidian
