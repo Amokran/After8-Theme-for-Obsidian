@@ -31,46 +31,48 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
-
 .theme-dark {
 
-  --background-primary: #050a0c;
-  --background-secondary: #050a0c;
-  /*--background-secondary: #121118;*/
+  --background-primary: #0c130c;
+  --background-secondary: rgb(8, 48, 11);
 
-  --text-normal: rgb(184, 151, 91);
-  --text-faint:  rgb(224, 213, 110);
-  --text-muted:  rgb(153, 72, 96);
-  --text-selection: rgb(51, 59, 3);
+  /*--text-normal: rgb(109, 102, 100);*/
+  --text-normal: rgb(187, 184, 184);
+  --text-faint:  rgb(238, 233, 184);
+  --text-muted:  rgb(84, 172, 67);
+  --text-selection: rgb(9, 72, 97);
   
-  --list-marker-color: #000;
+  --list-marker-color: #6d5d03;
   --list-bullet-radius: 6px;
   --list-bullet-size: 6px; 
-  --list-marker-color-collapsed: #633;   
+  --list-marker-color-collapsed:#6d5d03;
+
+  --h1-color: rgba(139, 107, 70, 0.89);
+  --h2-color: rgba(134, 118, 100, 0.89); 
+  --h3-color: rgba(211, 187, 187, 0.685);
 }
 
 .theme-dark .cm-s-obsidian span.cm-highlight {
-  background-color: rgb(204, 143, 10) !important;
+  background-color: rgb(23, 136, 33) !important;
   color: rgb(14, 13, 13) !important;
 }
 
 .theme-light {
 	
-  --background-primary: rgb(178, 187, 201);
-  --background-secondary: rgb(178, 187, 201);
+  --background-primary:  rgb(96, 114, 98);
+  --background-secondary: rgb(67, 90, 68);
 
-  --text-normal: rgb(53, 39, 3);
-  --text-faint:  rgb(88, 55, 5);
-  --text-muted:  rgb(97, 16, 89);
-  --text-selection: rgb(70, 124, 9);
+  --text-normal: rgb(29, 26, 17);
+  --text-faint:  rgb(179, 163, 19);
+  --text-muted:  rgb(161, 135, 63);
+  --text-selection: rgb(189, 230, 43);
   
-  --list-marker-color: #000;
+  --list-marker-color: #b89d06;
   --list-bullet-radius: 6px;
   --list-bullet-size: 6px; 
-  --list-marker-color-collapsed: #633;   
+  --list-marker-color-collapsed:#aa920a;
 }
-
 .theme-light .cm-s-obsidian span.cm-highlight {
-  background-color: rgb(61, 1, 46) !important;
-  color: rgb(243, 231, 231) !important;
+  background-color: rgb(7, 51, 11) !important; 
+  color: rgb(148, 141, 123) !important;
 }
